@@ -44,11 +44,9 @@ print(f"El mejor modelo es:\n", best_model.summary())
 X_test_best = sm.add_constant(X_test[list(best_subset)])
 predictions = best_model.predict(X_test_best)
 
-# Sacar métricas
+# Calcular métricas
 threshold = 0.5 
 y_pred = np.where(predictions >= threshold, 1, 0)
-
-# Calcular métricas
 accuracy = accuracy_score(y_test, y_pred)
 precision = precision_score(y_test, y_pred)
 recall = recall_score(y_test, y_pred)
