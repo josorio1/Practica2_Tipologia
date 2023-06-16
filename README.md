@@ -11,5 +11,5 @@ en su propio archivo .py, por lo que en total hay 5 archivos:
     - ttest.py: estudio mediante t-test de las variables y grupos del conjunto
     - logreg: entrenamiento y evaluación de un modelo para predecir si un vino es tinto o blanco.
 
-Asimismo, adjuntamos también la memoria de la práctica en *memoria.pdf*
+Asimismo, adjuntamos también la memoria de la práctica en *memoria.pdf* y los paquetes a descargar en caso de querer usar el repositorio en *requirements.txt*.
  
